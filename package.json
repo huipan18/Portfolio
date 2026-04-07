@@ -1,0 +1,40 @@
+{
+  "name": "macintosh-os",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@ducanh2912/next-pwa": "^10.2.9",
+    "@useverse/useshortcuts": "^4.0.0",
+    "@useverse/usesoundeffect": "^1.2.0",
+    "animejs": "^4.0.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.9.7",
+    "lucide-react": "^0.507.0",
+    "next": "15.3.8",
+    "nodemailer": "^7.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-draggable": "^4.4.6",
+    "react-hot-toast": "^2.5.2",
+    "react-use": "^17.6.0",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
