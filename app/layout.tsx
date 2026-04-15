@@ -5,6 +5,7 @@ import AppThemeProvider from "./components/AppThemeProvider";
 import { metadata as metadataConstants } from "@/Constants/metadata";
 import { PWAErrorBoundary } from "./components/PWAErrorBoundary";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import { Analytics } from "@vercel/analytics/next";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -44,6 +45,7 @@ export default function RootLayout({
           </svg>
           {children}
         </PWAErrorBoundary>
+        <Analytics />
       </AppThemeProvider>
     </html>
   );
